@@ -1,7 +1,15 @@
-In this project, I used data from world_population.csv at the provided link:
-https://docs.google.com/uc?id=1G0UbhoQZijI3NotLZhhTgHO_ruANYCCN&export=download
+#Global Demographics Risk Analysis 
 
-Using R's tidyverse package, including dplyr and ggplot, I manipulated the data to answer the question: What countries are at the highest risk for overpopulation and should therefore be the focus of resources?
+Dataset: https://docs.google.com/uc?id=1G0UbhoQZijI3NotLZhhTgHO_ruANYCCN&export=download
 
-Before answering this question, I explore the data set and answer other simple questions like which African questions are above average in land area, and which European countries have had the highest growth rate in a ten year span. 
-These questions familiarized me with the data set, and set me up to answer my main question. 
+Analysis of a global population/land-area dataset to test claims about 
+land area vs. population density, and to build a ranking methodology
+identifying countries at highest risk of overpopulation.
+
+**Tools:** R, tidyverse, ggplot2, linear regression
+
+**Highlights:**
+- Tested a claim about land area vs. population density using correlation 
+  and linear regression (found no significant relationship, R² = 0.004)
+- Built a multi-factor ranking system (population density, growth rate, 
+  total population) to prioritize countries for development intervention
