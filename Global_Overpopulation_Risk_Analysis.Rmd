@@ -1,8 +1,8 @@
 ---
-title: "DSUApp"
+title: "Global Overpopulation Risk Analyis"
 author: "Anvit Watwani"
 date: "2026-04-02"
-output: pdf_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
